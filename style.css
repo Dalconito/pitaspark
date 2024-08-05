@@ -33,11 +33,30 @@ body
   .col-s-11 {width: 91.66%;}
   .col-s-12 {width: 100%;}
   .col-s-adesao>p {font-size: 4rem; color: #0d3063;}
-  .Consultarbtn{ width: 100%; height: 50px;
-    background-color: #25d366; color: white;
-    text-decoration: none; text-align: center;
-    border-color: #25d366; margin-bottom: 25px;
-    margin-top: 25px; font-size: 30px;}
+  .Consultarbtn {
+    display: inline-block;
+    padding: 10px 25px;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    color: #fff;
+    background-color: #ff6f61;
+    border: none;
+    border-radius: 50px;
+    text-decoration: none;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.Consultarbtn:hover {
+    background-color: #ff4a3b;
+    transform: translateY(-3px);
+}
+
+.Consultarbtn:active {
+    transform: translateY(1px);
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+}
   .col-s-140{width: 100%;  font-size: 5.6rem;}
   .adesaoCol{font-size: 5rem; color: #0d3063;}
   .lazerdiv
@@ -83,10 +102,31 @@ body
   .col-12 {width: 75%; font-size: 4rem;}
   .col-adesao{font-size: 4rem; color: rgb(233, 233, 233);}
   .col-140{width: 100%;  font-size: 12rem;}
-  .Consultarbtn { width: 200px; height: 50px; background-color: #25d366;
-    color: white; text-decoration: none; text-align: center;
-    border-color: #25d366; margin-bottom: 25px; margin-top: 25px;
-    font-size: 80px;}
+
+  .Consultarbtn {
+        display: inline-block;
+        padding: 10px 25px;
+        font-size: 40px;
+        font-weight: bold;
+        text-align: left;
+        color: #fff;
+        background-color: #ff6f61;
+        border: none;
+        border-radius: 50px;
+        text-decoration: none;
+        transition: background-color 0.3s ease, transform 0.3s ease;
+        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    }
+  
+    .Consultarbtn:hover {
+        background-color: #ff4a3b;
+        transform: translateY(-3px);
+    }
+  
+    .Consultarbtn:active {
+        transform: translateY(1px);
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+    }
   .lazerdiv
     { color: #0d3063; margin: auto;
       text-align: center; font-weight: bolder;
@@ -336,7 +376,7 @@ Infraestrutura
 .chatbox-container {
   display: none;
   position: fixed;
-  bottom: 80px;
+  bottom: 200px;
   right: 20px;
   width: 300px;
   border: 1px solid #ccc;
@@ -397,10 +437,10 @@ width: 100%;
 
 .whatsapp-icon {
   position: fixed;
-  bottom: 120px;
+  bottom: 250px;
   right: 20px;
-  width: 50px;
-  height: 50px;
+  width:  80px;
+  height: 80px;
   cursor: pointer;
 }
 
@@ -412,10 +452,10 @@ width: 100%;
 
 .scroll-top-btn {
   position: fixed;
-  bottom: 180px;
+  bottom: 120px;
   right: 20px;
-  width: 50px;
-  height: 50px;
+  width: 80px;
+  height: 80px;
   background-color: #25d366;
   color: white;
   text-align: center;
@@ -424,6 +464,7 @@ width: 100%;
   cursor: pointer;
   display: none;
   z-index: 1001;
+  font-size: 50px;
 }
 
 footer {

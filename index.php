@@ -197,7 +197,7 @@ fclose($fileHandle); ?>
     </section>
         
     <section class="scroll">
-        <div id="scrollTopBtn" class="scroll-top-btn">↑</div>
+        <div class="scroll-top-btn" id="scrollTopBtn" >↑</div>
         <div class="whatsapp-icon" id="whatsappIcon">
             <img src="./fotos/wpp.webp" alt="WhatsApp">
         </div>
