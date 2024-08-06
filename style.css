@@ -5,8 +5,8 @@ body {background-color: #478a09;}
 /* For mobile phones: */
 [class*="col-"] { width: 100%;}
 
+/* SMARTPHONE */
 @media only screen and (max-width: 750px) {
-  /* SMARTPHONE */
   .col-s-1 {width: 50%; font-size: 10px;}
   .col-s-2 {width: 16.66%;  font-size: 1rem;}
   .col-s-3 {width: 25%;}
@@ -35,33 +35,22 @@ body {background-color: #478a09;}
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
 }
 
-.Consultarbtn:hover {
-    background-color: #ff4a3b;
-    transform: translateY(-3px);
-}
+.Consultarbtn:hover {background-color: #ff4a3b;
+    transform: translateY(-3px);}
 
-.Consultarbtn:active {
-    transform: translateY(1px);
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
-}
+.Consultarbtn:active { transform: translateY(1px); 
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);}
+
   .col-s-140{width: 100%;  font-size: 5.6rem;}
+  
   .adesaoCol{font-size: 5rem; color: #0d3063;}
-  .lazerdiv
-{
-  color: #0d3063;
-  margin: auto;
-  text-align: center;
-  font-weight: bolder;
-  margin: auto;
-  width: 100%;
-}
-.lazerinfo
-{
-  display: grid;
-  margin: auto;
-  grid-template-columns: repeat(2, 2fr);
-  gap: 20px;
-}
+
+  .lazerdiv{color: #0d3063; margin: auto;text-align: center;
+  font-weight: bolder; margin: auto; width: 100%;}
+
+.lazerinfo {display: grid; margin: auto;
+  grid-template-columns: repeat(2, 2fr); gap: 20px;}
+
 .lazerid > img
   {width: 100%; display: block;
   border-color: rgb(111, 223, 6);
@@ -69,16 +58,21 @@ body {background-color: #478a09;}
   border-radius: 50%; margin: auto;}
 
 .col-adesao{font-size: 1.8rem; color: rgb(233, 233, 233); text-align: center; width: 100%;}
-.adesaop {color: #0d3063; font-size: 2rem; font-weight: 1000;}
+.adesaop {color: #0d3063; font-size: 1rem; font-weight: 1000;}
 .adesaop > span {color: orange;}
 
 .oportunidadetexto > p
-{font-size: 2.3rem; text-align: center; font-weight: bolder; color: white;}
+{font-size: 1.8rem; text-align: center; font-weight: bolder; color: rgb(255, 255, 255);}
 
-}
 
+.divDesconto{text-align: center;}
+.textoDesconto > img{width: 90%;}
+}/* SMARTPHONE */
+
+
+
+/* DESKTOP */
 @media only screen and (min-width: 751px) {
-  /* DESKTOP */
   .col-1 {width: 83.33%; font-size: 4rem;}
   .col-2 {width: 16.66%;}
   .col-3 {width: 25%;}
@@ -90,13 +84,11 @@ body {background-color: #478a09;}
   .col-9 {width: 75%;}
   .col-10 {width: 83.33%;}
   .col-11 {width: 91.66%;}
-  .col-12 {width: 75%; font-size: 4rem;}
+  .col-12 {width: 100%;}
   .col-adesao{font-size: 4rem; color: rgb(233, 233, 233);}
-  .col-140{width: 100%;  font-size: 18rem;}
-  .Consultarbtn { width: 200px; height: 50px; background-color: #25d366;
-    color: white; text-decoration: none; text-align: center;
-    border-color: #25d366; margin-bottom: 25px; margin-top: 25px;
-    font-size: 80px;}
+  .col-140{width: 100%; font-size: 12rem;}
+
+  .divDesconto{text-align: center;}
   .lazerdiv
     { color: #0d3063; margin: auto;
       text-align: center; font-weight: bolder;
@@ -106,38 +98,50 @@ body {background-color: #478a09;}
   .lazerinfo
     { display: grid; margin: auto;
     grid-template-columns: repeat(2, 2fr);
-    gap: 20px; }
+    gap: 2px; padding: 100px;}
 
   .lazerid > img {
-    width: 60%; display: block;
+    width: 100%; display: block;
     border-color: rgb(111, 223, 6);
     border-width: 10px; border-style:solid;
     border-radius: 50%; margin: auto;}
 
-    .adesaop
-  {color: #0d3063; font-size: 3rem;
-  font-weight: 1000;}
-.adesaop > span
-{
-  color: orange;
-}
-.oportunidadetexto > p
-{
-  font-size: 4rem;
+    .oportunidadetexto > p
+    {font-size: 3rem; text-align: center; font-weight: bolder; color: white;}
+  }/* DESKTOP */
+
+
+  .adesaop{color: #0d3063; font-size: 3rem; font-weight: 1000;}
+
+  .adesaop > span {color: orange;}
+  
+
+
+  .oportunidadetexto > p > span {color: orange ;}
+
+.oportunidadetexto > p > span > span {color: white;}
+
+.Consultarbtn {
+  display: inline-block;
+  padding: 10px 25px;
+  font-size: 40px;
+  font-weight: bold;
   text-align: center;
-  font-weight: bolder;
-  color: white;
-
+  color: #fff;
+  background-color: #ff6f61;
+  border: none;
+  border-radius: 50px;
+  text-decoration: none;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
 }
+.Consultarbtn:hover {background-color: #ff4a3b;
+  transform: translateY(-3px);}
 
-}
+.Consultarbtn:active { transform: translateY(1px); 
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);}
 
-
-
-.logosec
-{
-  background-color: #0d3063;
-}
+.logosec {background-color: #0d3063;}
 
 .imglogosec {display: flex; margin: auto;}
 
@@ -145,34 +149,19 @@ body {background-color: #478a09;}
 
 .chamadalogosec > img { width: 100%; }
 
-.textologosec
-{
-  color: white;
-  font-size: 40px;
-  margin: auto;
-  text-align: center;
-  font-weight:1000;
-  font-style: normal;
-}
+.textologosec {color: white; font-size: 40px;
+  margin: auto; text-align: center;
+  font-weight:1000; font-style: normal;}
 
 .imgfinallogosec > img
-{ width: 100%;
-  border-top-left-radius: 50%;
-  border-top-right-radius: 50%;
-}
+{ width: 100%; border-top-left-radius: 50%; border-top-right-radius: 50%;}
 
 .textolancamento {width: auto;}
 
-
 .textolancamento > p
-{
-  color: #0d3063;
-  font-size:2.6rem;
-  text-align: center;
-  font-weight: bolder;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-
+{color: #0d3063; font-size:2.6rem;
+  text-align: center; font-weight: bolder;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;}
 
 .familiatextolancamento {width: 100%;}
 
@@ -186,13 +175,8 @@ body {background-color: #478a09;}
 {margin: auto; text-align:center; color:rgb(0, 0, 0); font-size: 45px;}
 
 .textoquemsomosopt1
-{
-  color:rgb(13, 2, 71);
-  font-size: 25px;
-  font-style:normal;
-  font-variant: normal;
-  text-align: center;
-}
+{color:rgb(13, 2, 71); font-size: 25px;
+  font-style:normal; font-variant: normal; text-align: center;}
 
 .imgfamiliaquemsomos > img {width: 100%;}
 
@@ -204,16 +188,11 @@ body {background-color: #478a09;}
 
 .lotesdiv{margin: auto;}
 
-
 .imglogolancamento > img {margin: auto; display: block;}
 
 .oportunidadesec { background-color:#0d3063;}
 
 
-
-.oportunidadetexto > p > span {color: orange ;}
-
-.oportunidadetexto > p > span > span {color: white;}
 
 .rodoviatexto {float: left; padding: 20px;gap: 30px; background-color:#0d3063;}
 
@@ -245,182 +224,78 @@ body {background-color: #478a09;}
   border-bottom-right-radius: 50% 50%;
 }
 
-.rodoaneldiv{float: right; padding: 20px;
-  width: auto; background-color:#0d3063;}
+.rodoaneldiv{float: right; padding: 20px; background-color:#0d3063; text-align: right;}
+.rodoaneltexto{float: right; padding: 20px; background-color:#0d3063; text-align: right;}
 
-
-/*
-Infraestrutura
-*/
+/* Infraestrutura */
 
 .infraestruturasec
-{
-  background-color: white;
-  float: left;
-  padding: 20px;
-  width: auto;
-}
-.infratexto1
-{
+{ background-color: white; float: left;
+  padding: 20px; width: auto; }
 
-  width: auto;
-  height: 250px; /* only for demonstration, should be removed */
-  padding: 20px;
-  margin: auto;
-}
+.infratexto1{width: auto; height: 250px; padding: 20px; margin: auto;}
 
-.infratexto1 > p
-{
-  color: rgb(255, 174, 0);
-  font-size: 140px;
-  font-weight: bolder;
-  margin: auto;
-}
+.infratexto1 > p {color: rgb(255, 174, 0);
+  font-size: 140px; font-weight: bolder; margin: auto;}
 
+.infraimg > img {width: 40%; float: left;
+  border-color: rgb(111, 223, 6); border-width: 20px;
+  border-style:solid; border-top-left-radius: 50% 50%; 
+  border-top-right-radius: 50% 50%; border-bottom-left-radius: 50% 50%;
+  height: auto; display: block;}
 
-.infraimg > img
-{
-  width: 40%;
-  float: left;
-  border-color: rgb(111, 223, 6);
-  border-width: 20px;
-  border-style:solid;
-  border-top-left-radius: 50% 50%; 
-  border-top-right-radius: 50% 50%; 
-  border-bottom-left-radius: 50% 50%;
-  height: auto;
-  display: block;
-}
-
-.infradiv
-{
-  float: left;
-  width: auto;
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 5px;
-}
+.infradiv {float: left; width: auto;
+  display: grid; grid-template-columns: repeat(2, 1fr); gap: 5px;}
 
 /* Proximidades */
-.proxsec
-{
-  background-color:#0d3063;
-}
+.proxsec {background-color:#0d3063;}
 
-.proxdiv
-{
-  color: #ffffff;
-  margin: auto;
-  font-size: 2rem;
-  text-align: center;
-  font-weight: bolder;
-  margin: auto;
-}
+.proxdiv {color: #ffffff; margin: auto; font-size: 2rem;
+  text-align: center;font-weight: bolder;margin: auto;}
 
-.proxtitulo
-{
-  font-size: 2em;
-}
-.prox > img
-{
-  width: 100%;
-}
+.proxtitulo{font-size: 2em;}
+.prox > img {width: 100%;}
 
-.proxtexto
-{
-  color: black;
-  font-size: 0.5em;
-}
+.proxtexto {color: black;font-size: 2rem;}
 
-.adesaotexto
-{
-  text-align: center; width: 100%;
-}
+.adesaotexto {text-align: center; width: 100%;}
 
+.adesaoimg {display: block;width: 100%;}
 
-
-.adesaoimg
-{
-  display: block;
-  width: 100%;
-}
-
-.chatbox-container {
-  display: none;
-  position: fixed;
-  bottom: 200px;
-  right: 20px;
-  width: 300px;
-  border: 1px solid #ccc;
-  border-radius: 10px;
+.chatbox-container {display: none;position: fixed;
+  bottom: 200px; right: 20px; width: 300px;
+  border: 1px solid #ccc; border-radius: 10px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  background-color: white;
-  z-index: 1000;
-}
+  background-color: white; z-index: 1000;}
 
 .chatbox-header {
-  background-color: #25d366;
-  color: white;
-  padding: 10px;
-  border-top-left-radius: 10px;
-  border-top-right-radius: 10px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
+  background-color: #25d366; color: white;
+  padding: 10px; border-top-left-radius: 10px;
+  border-top-right-radius: 10px; display: flex;
+  justify-content: space-between; align-items: center;}
 
-.chatbox-body {
-  padding: 10px;
-  height: 100px;
-  overflow-y: auto;
-  background-color: #92d355;
-  margin: auto;
-  text-align: center;
-}
+.chatbox-body {padding: 10px; height: 100px;
+  overflow-y: auto; background-color: #92d355;
+  margin: auto; text-align: center;}
 
-.chatbox-footer {
-  display: flex;
-  padding: 10px;
-  border-top: 1px solid #ccc;
-}
+.chatbox-footer {display: flex; padding: 10px;
+  border-top: 1px solid #ccc;}
 
-.chatbox-footer input {
-  flex: 1;
-  padding: 5px;
-  border: 1px solid #ccc;
-  border-radius: 5px;
-}
+.chatbox-footer input {flex: 1; padding: 5px;
+  border: 1px solid #ccc; border-radius: 5px;}
 
 .chatbox-footer button {
-  background-color: #25d366;
-  color: white;
-  border: none;
-  padding: 5px 10px;
-  margin-left: 5px;
-  border-radius: 5px;
-  cursor: pointer;
-  width: 10%;
-  height: 10%;
-}
+  background-color: #25d366; color: white;
+  border: none; padding: 5px 10px;
+  margin-left: 5px; border-radius: 5px;
+  cursor: pointer; width: 10%; height: 10%;}
 
-.chatbox-footer button a img{
-width: 100%;
-}
+.chatbox-footer button a img{ width: 100%;}
 
-.whatsapp-icon {
-  position: fixed;
-  bottom: 250px;
-  right: 20px;
-  width:  80px;
-  height: 80px;
-  cursor: pointer;
-}
+.whatsapp-icon { position: fixed; bottom: 250px;
+  right: 20px; width:  80px; height: 80px; cursor: pointer;}
 
-.whatsapp-icon img {
-  width: 100%;
-  height: 100%;
-  border-radius: 50%;
-}
+.whatsapp-icon img { width: 100%; height: 100%; border-radius: 50%;}
 
 .scroll-top-btn {
   position: fixed;
@@ -439,11 +314,7 @@ width: 100%;
   font-size: 50px;
 }
 
-footer {
-  background-color: #333;
-  color: white;
-  padding: 20px 0;
-}
+footer {background-color: #333; color: white; padding: 20px 0;}
 
 .footer-container {
   display: flex;
@@ -453,31 +324,13 @@ footer {
   padding: 0 20px;
 }
 
-.column p {
-  margin-bottom: 8px;
-  font-size: 0.5rem;
-}
+.column p { margin-bottom: 8px; font-size: 0.5rem;}
 
-.footer-center {
-  text-align: center;
-}
+.footer-center {text-align: center;}
 
-.photos {
-  display: flex;
-  justify-content: center;
-  gap: 10px;
-}
+.photos {display: flex; justify-content: center; gap: 10px;}
 
-.photos img {
-  width: 100%;
-  height: 100%;
-  object-fit: fill;
-  border-radius: 5px;
-}
+.photos img {width: 100%; height: 100%; object-fit: fill; border-radius: 5px;}
 
-.footer-right p {
-  padding-top: 10px;
-  margin: auto;
-  text-align: center;
-  font-size: 0.4rem;
-}
+.footer-right p {padding-top: 10px; margin: auto;
+  text-align: center; font-size: 0.4rem;}

@@ -76,63 +76,65 @@ fclose($fileHandle); ?>
         </div>
     </section>
 
+    <section class="col-8 col-s-12 divDesconto">
+                <a class="textoDesconto" href="https://wa.me/+5511983506830?text=Vim pela Landing Page, gostaria de mais informações"><img src="./fotos/25off.WEBP"></a> 
+    </section>
+
     <section class="oportunidadesec col-8 col-s-10">
-        <div class="oportunidadediv col-12 col-s-12">
             <div class="oportunidadetexto col-12 col-s-12">
                 <p> OPORTUNIDADE</p>
                 <p style="color: orange;">IMPERDIVEL</p>
                 <P>AQUI NO PITAS PARK</P>
             </div>
-        </div>
     </section>
 
     <section class="rodoviasec col-8 col-s-10">
-        <div class="rodoviadiv col-8 col-s-12">
+        <div class="rodoviadiv col-12 col-s-12">
             <div class="rodoviatexto">
-                <div class="rodoviatexto col-8 col-s-12">
+                <div class="rodoviatexto col-12 col-s-12">
                     <p>Próximo a Rodovia</p>
                 </div>
                 <div class="optimg1">
                     <img src="./fotos/rodovia.webp">
                 </div>
             </div>
-            <div class="rodoaneldiv col-s-12">
-                <div class="rodoviatexto col-8 col-s-12">
+            <div class="rodoaneldiv">
+                <div class="rodoviatexto col-12 col-s-12">
                     <p>Próximo ao Rodoanel</p>
                 </div>
-                    <div class="optimg2">
-                        <img src="./fotos/rodoanel.webp">
-                    </div>
+                <div class="optimg2">
+                    <img src="./fotos/rodoanel.webp">
                 </div>
-            </div>
+                </div>
+        </div>
     </section>
 
     <section class="proxsec col-8 col-s-10">
-         <div class="proxdiv col-s-12 col-8">
-                <div class="prox col-s-12 col-10">
-                    <p>O QUE TEMOS NAS PROXIMIDADES</p>
-                    <p>Animália Park</p>
-                    <img src="./fotos/animalia.webp">
-                    <p class="proxtexto">O animalia Park tem atrações radicais, zoológico, teleférico e muita
-                        diversão para as crianças e familia toda</p>
-                    <p>Thermas da Mata</p>
-                    <img src="./fotos/thermas.webp">
-                    <p class="proxtexto">Sao 200mil metros quadrados de um verdadeiro paraiso tropical,
-                        com diversas árvores nativas, nascente e cachoeira, além de uma
-                        grandiosa estrutura de lazer que esta crescendo cada vez mais!
-                    </p>
-                    <p>Futuro Metrô Cotia <br> (Linha Marrom)</p>
-                    <img src="./fotos/metrocotia.webp">
-                    <p class="proxtexto">Mais comodidade e agilidade no percurso na ida e volta para o trabalho, 
-                        facilidade em acesso para a região central e integração para metrôs de toda grande
-                         São Paulo
-                    </p>
-                </div>
+         <div class="proxdiv col-12 col-s-12">
+            <div class="prox col-12 col-s-12">
+                <p>O QUE TEMOS NAS PROXIMIDADES</p>
+                <p>Animália Park</p>
+                <img src="./fotos/animalia.webp">
+                <p class="proxtexto">O animalia Park tem atrações radicais, zoológico, teleférico e muita
+                    diversão para as crianças e familia toda</p>
+                <p>Thermas da Mata</p>
+                <img src="./fotos/thermas.webp">
+                <p class="proxtexto">Sao 200mil metros quadrados de um verdadeiro paraiso tropical,
+                    com diversas árvores nativas, nascente e cachoeira, além de uma
+                    grandiosa estrutura de lazer que esta crescendo cada vez mais!
+                </p>
+                <p>Futuro Metrô Cotia <br> (Linha Marrom)</p>
+                <img src="./fotos/metrocotia.webp">
+                <p class="proxtexto">Mais comodidade e agilidade no percurso na ida e volta para o trabalho, 
+                    facilidade em acesso para a região central e integração para metrôs de toda grande
+                        São Paulo
+                </p>
+            </div>
          </div>
     </section>
 
     <section class="lazersec">
-            <div class="lazerdiv col-s-8 col-10">
+            <div class="lazerdiv col-10 col-s-12">
                 <h1>E TEM MAIS!</h1>
                 <p>LAZER COMPLETO NA ÁREA INTERNA <br> PARA SUA FAMÍLIA</p>
                 <div class="lazerinfo col-10">
