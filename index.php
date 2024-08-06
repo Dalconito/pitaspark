@@ -77,8 +77,8 @@ fclose($fileHandle); ?>
     </section>
 
     <section class="oportunidadesec col-8 col-s-10">
-        <div class="oportunidadediv col-8 col-s-12">
-            <div class="oportunidadetexto col-10 col-s-12">
+        <div class="oportunidadediv col-12 col-s-12">
+            <div class="oportunidadetexto col-12 col-s-12">
                 <p> OPORTUNIDADE</p>
                 <p style="color: orange;">IMPERDIVEL</p>
                 <P>AQUI NO PITAS PARK</P>
@@ -86,7 +86,7 @@ fclose($fileHandle); ?>
         </div>
     </section>
 
-    <section class="rodoviasec col-10 col-s-10">
+    <section class="rodoviasec col-8 col-s-10">
         <div class="rodoviadiv col-8 col-s-12">
             <div class="rodoviatexto">
                 <div class="rodoviatexto col-8 col-s-12">

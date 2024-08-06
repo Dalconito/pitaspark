@@ -1,24 +1,11 @@
-* {
-  box-sizing: border-box;
-  margin: auto;
-  
-}
-
-html
-{
-  font-size: 20px;
-}
-body
-{
-  background-color: #478a09;
-}
+* {box-sizing: border-box; margin: auto;}
+html{ font-size: 20px; }
+body {background-color: #478a09;}
 
 /* For mobile phones: */
-[class*="col-"] {
-  width: 100%;
-}
+[class*="col-"] { width: 100%;}
 
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 750px) {
   /* SMARTPHONE */
   .col-s-1 {width: 50%; font-size: 10px;}
   .col-s-2 {width: 16.66%;  font-size: 1rem;}
@@ -65,9 +52,13 @@ body
 .col-adesao{font-size: 1.8rem; color: rgb(233, 233, 233); text-align: center; width: 100%;}
 .adesaop {color: #0d3063; font-size: 2rem; font-weight: 1000;}
 .adesaop > span {color: orange;}
+
+.oportunidadetexto > p
+{font-size: 2.3rem; text-align: center; font-weight: bolder; color: white;}
+
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 751px) {
   /* DESKTOP */
   .col-1 {width: 83.33%; font-size: 4rem;}
   .col-2 {width: 16.66%;}
@@ -82,7 +73,7 @@ body
   .col-11 {width: 91.66%;}
   .col-12 {width: 75%; font-size: 4rem;}
   .col-adesao{font-size: 4rem; color: rgb(233, 233, 233);}
-  .col-140{width: 100%;  font-size: 12rem;}
+  .col-140{width: 100%;  font-size: 18rem;}
   .Consultarbtn { width: 200px; height: 50px; background-color: #25d366;
     color: white; text-decoration: none; text-align: center;
     border-color: #25d366; margin-bottom: 25px; margin-top: 25px;
@@ -111,6 +102,15 @@ body
 {
   color: orange;
 }
+.oportunidadetexto > p
+{
+  font-size: 4rem;
+  text-align: center;
+  font-weight: bolder;
+  color: white;
+
+}
+
 }
 
 
@@ -190,14 +190,7 @@ body
 
 .oportunidadesec { background-color:#0d3063;}
 
-.oportunidadetexto > p
-{
-  font-size: 2.3rem;
-  text-align: center;
-  font-weight: bolder;
-  color: white;
-  font-size: 35px;
-}
+
 
 .oportunidadetexto > p > span {color: orange ;}
 
