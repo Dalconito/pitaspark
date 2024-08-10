@@ -77,7 +77,7 @@ fclose($fileHandle); ?>
     </section>
 
     <section class="col-8 col-s-12 divDesconto">
-                <a class="textoDesconto" href="https://wa.me/+5511983506830?text=Vim pela Landing Page, gostaria de mais informações"><img src="./fotos/25off.WEBP"></a> 
+                <a class="textoDesconto" href="https://wa.me/+5511983506830?text=Vim pela Landing Page, gostaria de mais informações"><img src="./fotos/25off.webp"></a> 
     </section>
 
     <section class="oportunidadesec col-8 col-s-10">
