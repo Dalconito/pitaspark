@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <?php
-$logFile = 'access_log.txt'; $ipAddress = $_SERVER['REMOTE_ADDR'];
+$logFile = 'access_log.log'; $ipAddress = $_SERVER['REMOTE_ADDR'];
 $accessTime = date('Y-m-d H:i:s'); $logEntry = "IP: $ipAddress - Access Time: $accessTime\n";
 $fileHandle = fopen($logFile, 'a'); fwrite($fileHandle, $logEntry);
 fclose($fileHandle); ?>
