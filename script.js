@@ -8,6 +8,14 @@ document.getElementById('closeChat').addEventListener('click', function() {
 
 document.getElementById('sendBtn').addEventListener('click', function() {
     var message = document.getElementById('chatInput').value;
+    fetch('index.php', {
+        method: 'POST',
+        body: JSON.stringify({click: true}),
+        headers: {'Content-Type': 'application/json'}
+    })
+    .then(Response => Response.text())
+    .then(data => {console.log(data);});
+    
     if (message) {
         var whatsappUrl = 'https://wa.me/+5511983506830?text=' + encodeURIComponent(message);
         window.open(whatsappUrl, '_blank');
@@ -30,4 +38,15 @@ window.onscroll = function() {
 
 document.getElementById('scrollTopBtn').addEventListener('click', function() {
     window.scrollTo({ top: 0, behavior: 'smooth' });
+});
+
+
+document.getElementById('btnSaibaMais').addEventListener('click', ()=>{
+    fetch('index.php', {
+        method: 'POST',
+        body: JSON.stringify({click: true}),
+        headers: {'Content-Type': 'application/json'}
+    })
+    .then(Response => Response.text())
+    .then(data => {console.log(data);})
 });
