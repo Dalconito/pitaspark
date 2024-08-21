@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <?php
-$logFile = 'access_log.log'; $ipAddress = $_SERVER['REMOTE_ADDR'];
+$logFile = 'access_log.log'; $ipAddress = $_SERVER['REMOTE_ADDR']; date_default_timezone_set("America/Bahia");
 $accessTime = date('Y-m-d H:i:s'); $logEntry = "IP: $ipAddress - Access Time: $accessTime\n";
 $fileHandle = fopen($logFile, 'a'); fwrite($fileHandle, $logEntry);
 fclose($fileHandle); ?>
@@ -193,7 +193,7 @@ fclose($fileHandle); ?>
             </div>
             <div class="chatbox-footer">
                 <input type="text" id="chatInput" value="Vim pela Landing Page, gostaria de mais informações">
-                <button id="sendBtn"><a><img src="./fotos/enviarbtn.webp"></a></button>
+                <button ><a id="sendBtn"><img src="./fotos/enviarbtn.webp"></a></button>
             </div>
         </div>
     </section>
