@@ -22,8 +22,8 @@ fclose($fileHandle); ?>
                 <img src="./fotos/arterelogio.webp">
             </div>
             <div class="textologosec">
-                <p style="font-size:32px">É A SUA VEZ DE CONQUISTAR O SEU TÃO SONHADO <br>
-                    TERRENO/COTA AQUI NO PITAS PARK!</p>
+                <p>É A SUA VEZ DE CONQUISTAR O SEU TÃO SONHADO <br>
+                    LOTE AQUI NO PITAS PARK!</p>
             </div>
             <div class="imgfinallogosec">
                 <img src="./fotos/panoramicacasas.webp">
